@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-wise Content Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Day-wise Content Manager</h1>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" min="2025-01-15" max="2025-04-18">
+        <textarea id="content"></textarea>
+        <div class="buttons">
+            <button onclick="saveContent()">Save</button>
+            <button onclick="loadContent()">Load</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
